@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="My_Application.wear">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/My_Application_wear</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+      </options>
+    </properties>
+    <root id="archive" name="My_Application.wear.apk">
+      <element id="android-final-package" facet="My_Application.wear/android/Android" />
+    </root>
+  </artifact>
+</component>
